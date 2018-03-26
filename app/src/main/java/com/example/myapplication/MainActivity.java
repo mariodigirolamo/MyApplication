@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     //View del layout
-    //Commento per il push
+    //Commento per il push finale
 
     private TextView vMessaggio;
     private Button vAumenta;
