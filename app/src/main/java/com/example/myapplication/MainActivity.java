@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView vMessaggio;
     private Button vAumenta;
     private Button vDiminuisci;
+    private Button vAzzeramento;
 
     private int contatore = 0;
 
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         vMessaggio = findViewById(R.id.Conteggio);
         vAumenta = findViewById(R.id.Aggiungi);
         vDiminuisci = findViewById(R.id.Diminuisci);
+        vAzzeramento = findViewById(R.id.Azzeramento);
 
         //Impostazioni pulsanti
 
@@ -45,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 --contatore;
+                visualizzaMessaggio();
+            }
+        });
+
+        vAzzeramento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                contatore = 0;
                 visualizzaMessaggio();
             }
         });
