@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Importa riferimenti Layout
 
-        vMessaggio = findViewById(R.id.textConteggio);
-        vAumenta = findViewById(R.id.btnAggiungi);
-        vDiminuisci = findViewById(R.id.btnDiminuisci);
+        vMessaggio = findViewById(R.id.Conteggio);
+        vAumenta = findViewById(R.id.Aggiungi);
+        vDiminuisci = findViewById(R.id.Diminuisci);
 
         //Impostazioni pulsanti
 

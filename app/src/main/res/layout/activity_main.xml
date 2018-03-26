@@ -19,13 +19,13 @@
         app:layout_constraintVertical_bias="0.06999999" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Aggiungi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="8dp"
-        android:text="@string/Aggiungi"
+        android:text="Aggiungi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,8 +38,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="Diminuisci"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Aggiungi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button" />
+        app:layout_constraintStart_toEndOf="@+id/Aggiungi" />
 
 </android.support.constraint.ConstraintLayout>
